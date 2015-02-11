@@ -6,3 +6,9 @@ RUN apt-get install -y dnsmasq
 RUN apt-get install -y emacs
 
 RUN echo 'listen-address=127.0.0.1' >> /etc/dnsmasq.conf
+
+COPY docker-entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+
+
+ENTRYPOINT ["/entrypoint.sh"]
