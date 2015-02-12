@@ -1,3 +1,6 @@
+# usage:
+# docker run --privileged -v /etc/:/mnt dnsmasq
+
 FROM ubuntu:14.04
 
 RUN apt-get update
