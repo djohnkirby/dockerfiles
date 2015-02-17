@@ -1,4 +1,7 @@
 # Shinken Docker installation
+# usage
+# run -it -p 7767:7767 -p 80:80 shinken
+
 FROM ubuntu:trusty
 MAINTAINER Daniel Kirby dk@adcade.com
 
