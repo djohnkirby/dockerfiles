@@ -1,0 +1,3 @@
+[submodule "sundial"]
+	path = sundial
+	url = git@github.com:saksdirect/sundial.git
